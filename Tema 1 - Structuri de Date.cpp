@@ -352,8 +352,10 @@ int main() {
     system("CLS");
 
     for (int i = 1; i <= nr_teste; i += 1) {
-            if (i == nr_teste)
+            if (i == nr_teste) {
                 functiaPrincipala();
+		system("PAUSE");
+	    }
         else {
             functiaPrincipala();
             system("PAUSE");
