@@ -253,8 +253,11 @@ int main() {
             in >> a >> b;
             std :: vector <int> *ans = new std :: vector <int>;
             tree = range(tree, a, b, ans);
-            for (size_t i = 0; i < ans -> size(); ++i)
-                out << ans -> at(i) << " ";
+            for (size_t i = 0; i < ans -> size(); ++i) {
+                out << ans -> at(i);
+                if (i != ans -> size()- 1)
+                    out << " ";
+            }
             delete ans;
             if (N)
                 out << "\n";
