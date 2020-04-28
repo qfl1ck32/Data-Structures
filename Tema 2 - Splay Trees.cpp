@@ -161,6 +161,7 @@ node *successor(node *tree, int key) {
 
     if (aux -> right != nullptr)
         aux = aux -> right;
+
     while (aux -> left != nullptr)
         aux = aux -> left;
 
