@@ -7,5 +7,5 @@ This program is sorting N random generated lists of natural numbers up to M with
   6. C++'s sort()
   7. BubbleSort
   8. CocktailSort
-  9. PancakeSort\
+  9. PancakeSort  
 then sorts and displays the times taken by them.
